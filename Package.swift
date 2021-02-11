@@ -9,14 +9,9 @@ let package = Package(
     products: [
         .library(
             name: "AdobeMobile",
-            targets: ["AdobeMobile"]),
-        .library(
-            name: "AdobeMobileFramework",
-            targets: ["AdobeMobileFramework"]),
+            targets: ["AdobeMobile"])
     ],
     targets: [
         .systemLibrary(name: "AdobeMobile"),
-        .binaryTarget(name: "AdobeMobileFramework",
-                      path: "MobileServices/AdobeMobile.xcframework")
     ]
 )
