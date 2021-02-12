@@ -1,6 +1,6 @@
 //Sources/AdobeMobile/module.modulemap
 module AdobeMobile {
-    header "FoundationAnalytics/FoundationAnalytics/Resources/Headers/ADBMobile.h"
+    umbrella header "Resources/Headers/ADBMobile.h"
     link "ADBMobile"
     export *
 }
