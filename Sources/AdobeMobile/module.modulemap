@@ -1,12 +1,12 @@
 //Sources/AdobeMobile/module.modulemap
 module AdobeMobile {
-    umbrella header "Resources/Headers/ADBMobile.h"
+    header "../../Headers/AdobeMobile-Bridging-Header.h"
     link "ADBMobile"
     export *
 }
 
 module CSQLite {
-    header "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sqlite3.h"
+    header "../../Headers/Csqlite3-Bridging-Header.h"
     link "sqlite3"
     export *
 }
