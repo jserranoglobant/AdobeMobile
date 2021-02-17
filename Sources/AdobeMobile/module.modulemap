@@ -10,3 +10,11 @@ module CSQLite {
     link "sqlite3"
     export *
 }
+
+module AWSCore {
+    header "../../Headers/AWSCore-Bridging-Header.h"
+}
+
+module AWSS3 {
+    header "../../Headers/AWSS3-Bridging-Header.h"
+}
